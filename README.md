@@ -9,6 +9,10 @@ Combining the power of AI with an intuitive chat interface. Instead of memorizin
 ---
 
 
+https://github.com/user-attachments/assets/c1ba80ea-9236-4fc0-b7fd-f50f36e0f32c
+
+
+
 ## 🚀 Key Features
 
 ### 💬 **Intuitive Chat Interface**
@@ -111,43 +115,13 @@ termixai chat
 4. **Approve & execute**: Confirm to run the command and see results
 5. **Learn & iterate**: Ask follow-up questions or try related tasks
 
-### Sample Commands to Try
-```
-"Find large files in my home directory"
-"Check which process is using the most CPU"
-"Create a backup of my project folder"
-"Show me network connections"
-"Install a package and check if it worked"
-```
 
 ---
 
-## 🔧 Advanced Usage
+### Configuration 
 
-### Command Line Options
 ```bash
-# Start with specific configuration
-termixai chat --config /path/to/config.yaml
-
-# Enable debug mode
-termixai chat --debug
-
-# Use specific AI model
-termixai chat --model gpt-4
-
-# Run in batch mode (non-interactive)
-termixai execute "your command description"
-```
-
-### Configuration File
-Create `~/.termixai/config.yaml` for persistent settings:
-```yaml
-ai_provider: azure_openai
-model: gpt-4
-auto_execute: false
-max_history: 50
-theme: dark
-safety_checks: true
+termixai config
 ```
 
 ---
