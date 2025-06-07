@@ -1,0 +1,2 @@
+include ai_assist/models/tools/*.json
+recursive-include ai_assist/models/tools *.json 
